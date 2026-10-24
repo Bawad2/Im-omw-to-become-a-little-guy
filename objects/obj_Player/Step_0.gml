@@ -14,12 +14,19 @@ image_yscale  = mass*0.3
 //eating
 if place_meeting( x, y, obj_food){  mass += obj_food.mass; }
 
+//change life forms
+
+
+
+sprite_index = global.lifeforms[current_Lifeform]
+
+
 
 //size down when reached a certain mass;
 
 if mass = 50 
 { 
-	current_Lifeform += 1;
+	global.current_Lifeform += 1;
 	//set everything to a base size
 	
 	with(all){ mass = 1 };

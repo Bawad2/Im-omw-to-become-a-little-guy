@@ -1,7 +1,9 @@
-current_Lifeform = 1;
+
+
+current_Lifeform = global.current_Lifeform;
 mass = 1;
 
 
-image_xscale = mass;
-image_yscale = mass;
-spd = 5;
+
+
+

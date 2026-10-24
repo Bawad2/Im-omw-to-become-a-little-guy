@@ -1,4 +1,5 @@
-current_Lifeform = 0;
+global.current_Lifeform = 0;
+current_Lifeform = global.current_Lifeform;
 
 global.lifeforms[0] = spr_Virus;
 global.lifeforms[1] = spr_Bacteria;
