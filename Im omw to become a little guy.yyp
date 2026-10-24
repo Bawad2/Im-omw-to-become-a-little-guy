@@ -26,6 +26,7 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_Start","path":"sprites/spr_Start/spr_Start.yy",},},
+    {"id":{"name":"spr_Virus","path":"sprites/spr_Virus/spr_Virus.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
