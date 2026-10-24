@@ -17,8 +17,7 @@ if place_meeting( x, y, obj_food){  mass += obj_food.mass; }
 //change life forms
 
 
-
-sprite_index = global.lifeforms[current_Lifeform]
+sprite_index = global.lifeforms[global.current_Lifeform]
 
 
 
@@ -27,11 +26,9 @@ sprite_index = global.lifeforms[current_Lifeform]
 if mass = 50 
 { 
 	global.current_Lifeform += 1;
-	//set everything to a base size
-	
-	with(all){ mass = 1 };
-	
+	startShrink = 1;
 }
+
 
 
 

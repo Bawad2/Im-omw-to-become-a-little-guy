@@ -5,6 +5,6 @@ var food = instance_create_layer( random(room_width), random(room_height), self.
 food.mass = (obj_Player.mass)*0.3
 
 if chance > 25 {  food.mass = (obj_Player.mass) + 2 }
-if chance > 3  {  food.mass = (obj_Player.mass) + 30 }
+if chance > 1  {  food.mass = (obj_Player.mass) + 1 }
 
 if food.mass >= 50  {  food.current_Lifeform += 1;  }
