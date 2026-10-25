@@ -23,7 +23,7 @@ sprite_index = global.lifeforms[global.current_Lifeform]
 
 //size down when reached a certain mass;
 
-if mass = 50 and !startShrink
+if mass >= 50 and !startShrink
 { 
 	global.current_Lifeform += 1;
 	with(all){ mass = 5; }
