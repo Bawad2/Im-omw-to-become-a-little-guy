@@ -22,9 +22,11 @@
   },
   "name":"Im omw to become a little guy",
   "resources":[
+    {"id":{"name":"obj_FactsUI","path":"objects/obj_FactsUI/obj_FactsUI.yy",},},
     {"id":{"name":"obj_food","path":"objects/obj_food/obj_food.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"spr_Bacteria","path":"sprites/spr_Bacteria/spr_Bacteria.yy",},},
     {"id":{"name":"spr_RBC","path":"sprites/spr_RBC/spr_RBC.yy",},},
     {"id":{"name":"spr_Start","path":"sprites/spr_Start/spr_Start.yy",},},
