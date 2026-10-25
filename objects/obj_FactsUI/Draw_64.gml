@@ -18,7 +18,7 @@ if global.current_Lifeform = 1
 
 if global.current_Lifeform = 2
 {
-	draw_text_transformed(600, 42, " Red Blood Cell ", 3,3,image_angle);
+	draw_text_transformed(600, 42, " Red Blood Cell ",2,2,image_angle);
 	draw_text_transformed(500, 102, "A red blood cell is precisely sized at seven micrometers to  ", 0.7,0.7,image_angle)
 	draw_text_transformed(500, 122, "squeeze through the body's tightest blood vessels.", 0.7,0.7,image_angle);
 	
